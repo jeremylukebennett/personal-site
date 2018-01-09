@@ -49,6 +49,15 @@ a:visited {
     color: #ff5252;
 }
 
+div#spacer {
+    height: 10em;
+}
+
+p.redText {
+    color: #ff5252;
+    
+}
+
 body {
     background-image: url("https://images.pexels.com/photos/33130/typewriter-keys-mechanically-letters.jpg");
     background-position: center right;
