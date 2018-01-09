@@ -30,10 +30,23 @@ div#header ul {
 }
 
 li.menuItem {
-    color: #ff5252;
     display: inline;
-    text-decoration: none;
     padding-right: .4em;
+}
+
+a {
+    color: #ff5252;
+    text-decoration: none;
+    transition: .4s;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff5252;
 }
 
 body {
