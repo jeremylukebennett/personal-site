@@ -46,7 +46,7 @@ li.menuItem {
 }
 
 a {
-    color: #ff2727;
+    color: black;
     text-decoration: none;
     transition: .4s;
     font-size: 1.4em;
