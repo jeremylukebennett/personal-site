@@ -3,21 +3,31 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
+body {
+    /* background-image: url("https://images.pexels.com/photos/33130/typewriter-keys-mechanically-letters.jpg");
+    background-position: left center; */
+    background-color: #F6E8E6;
+    
+}
+
 /* header styling */
 header#header {
     width: 100%;
-    height: 10em;
+    height: 5em;
     position: absolute;
     left: 0;
     top: 0;
-    opacity: .75;
+    border-bottom: solid black 1px;
 } 
 
 header#header h1 {
     margin: 4% 0 4% 3%;
-    color: #e90000;
+    /* color: #e90000; */
+    color: #000000;
     display: inline-block;
     font-size: 3em;
+    font-weight: 400;
     margin: 1px 0 0 10px;  
     letter-spacing: 7px; 
 }
@@ -36,7 +46,7 @@ li.menuItem {
 }
 
 a {
-    color: #e90000;
+    color: #ff2727;
     text-decoration: none;
     transition: .4s;
     font-size: 1.4em;
@@ -44,16 +54,18 @@ a {
 
 
 a:visited {
-    color: #e90000;
+    color: black;
 }
 
 a:hover {
-    color: #520303;
+    color: #bf0000;
     text-decoration: none;
 }
 
 .nav-bar-underline {
-    border-bottom: 2px solid #e90000;
+    border-bottom: 2px solid #520303;
+    color: #520303;
+    font-weight: 700;
 } 
 
 /* end header styling */
@@ -63,13 +75,15 @@ div#spacer {
     height: 10em;
 }
 
-p.redText {
+.redText {
     color: #ff5252;
     
 }
 
-body {
-    background-image: url("https://images.pexels.com/photos/33130/typewriter-keys-mechanically-letters.jpg");
-    background-position: center right;
-    
+
+/* Blog CSS */
+
+.blogEntries article {
+    background-color: rgba(35, 35, 35, 0.723);
+    /* border: solid red 1px; */
 }
