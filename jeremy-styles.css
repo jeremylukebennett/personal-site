@@ -48,7 +48,7 @@ li.menuItem {
 a {
     color: black;
     text-decoration: none;
-    transition: .4s;
+    transition: .2s;
     font-size: 1.4em;
 }
 
@@ -75,10 +75,6 @@ div#spacer {
     height: 10em;
 }
 
-.redText {
-    color: #ff5252;
-    
-}
 
 
 /* Blog CSS */
@@ -86,4 +82,20 @@ div#spacer {
 .blogEntries article {
     background-color: rgba(35, 35, 35, 0.723);
     /* border: solid red 1px; */
+}
+
+.redText {
+    color: #ff5252;
+    padding: 2em 1em;
+    /* margin: .5em 0; */
+    
+}
+
+.redText h2 {
+    font-weight: 400;
+}
+
+code {
+    font-family: monospace;
+    font-size: 1.2em;
 }
