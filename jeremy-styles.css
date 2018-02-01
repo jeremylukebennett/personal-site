@@ -11,6 +11,11 @@ body {
     
 }
 
+.copyText p {
+    font-family: 'Raleway', sans-serif;
+
+}
+
 /* header styling */
 header#header {
     width: 100%;
@@ -22,13 +27,13 @@ header#header {
 } 
 
 header#header h1 {
-    margin: 4% 0 4% 3%;
+    /* margin: 4% 0 4% 5%; */
     /* color: #e90000; */
     color: #000000;
     display: inline-block;
     font-size: 3em;
     font-weight: 400;
-    margin: 1px 0 0 10px;  
+    margin: 1px 0 0 20px;  
     letter-spacing: 7px; 
 }
 
@@ -36,7 +41,7 @@ header#header ul {
     /* margin: 0 0 0 60%; */
     display: inline-block;
     position: absolute;
-    right: 3%;
+    right: 1%;
     top: 4%;
 }
 
@@ -53,18 +58,20 @@ a {
 }
 
 
-a:visited {
+/* a:visited {
     color: black;
-}
+} */
 
 a:hover {
-    color: #ff0000;
+    color: #D50000;
     text-decoration: none;
 }
 
 .nav-bar-underline {
-    border-bottom: 2px solid #520303;
-    color: #520303;
+    border-bottom: 2px solid #AA0000;
+    border-top: 2px solid #AA0000;
+    padding: .1em 0;
+    color: #AA0000;
     font-weight: 700;
 } 
 
@@ -75,6 +82,28 @@ div#spacer {
     height: 10em;
 }
 
+#btn-response {
+    text-align: center;
+}
+
+#btn-response a {
+    text-decoration: underline;
+    color: rgb(255, 30, 30);
+}
+
+#js-demo {
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content: center;
+}
+
+#js-btn {
+    font-size: 2em;
+    width: 5em;
+    border: 1px solid red;
+    /* display: block; */
+    /* align-self: center; */
+}
 
 
 /* Blog CSS */
@@ -84,7 +113,7 @@ div#spacer {
     /* border: solid red 1px; */
 }
 
-.redText {
+.copyText {
     color: black;
     padding: 1em 1em 2em 1em;
     line-height: 1.8em;
@@ -93,18 +122,17 @@ div#spacer {
     width: 50%;
 }
 
-.redText h2 {
+.copyText h2 {
     font-weight: 400;
 }
 
-.redText a {
+.copyText a {
     border-bottom: solid black 1px;
 }
 
 code {
     font-family: monospace;
     font-size: 1.2em;
-    /* text-align: center; */
 }
 
 div.code-block {
